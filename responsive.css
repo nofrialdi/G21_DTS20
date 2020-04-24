@@ -7,6 +7,13 @@
     display:none;
   }
 
+  .text-about p img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+
   .box{
     margin: 50px;
   }
@@ -18,7 +25,6 @@
   .box .content{
     height: 45px;
   }
-
 
 
   .box .content h2{
@@ -55,8 +61,12 @@
     height: 50px;
   }
 
-  .heading h2{
-    font-size: 36px;
+  
+  .text-about p img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    margin-right: 0;
   }
 
 
@@ -69,10 +79,10 @@
   }
 
 
-
   .box .content h2{
     font-size: 12px;
   }
+
 
   .box .content span{
     font-size: 8px;
