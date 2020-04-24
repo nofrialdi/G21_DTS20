@@ -1,17 +1,8 @@
 html{scroll-behavior: smooth;}
 
-/* * {
+* {
   box-sizing: border-box;
 }
- */
-
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "montserrat",sans-serif;
-  box-sizing: border-box;
-}
-
 
 body {
   margin: 0;
@@ -215,8 +206,6 @@ header {
   
 }
 
-
-
 .text-about p img{
    width:600px; 
    height:300px;
@@ -224,38 +213,30 @@ header {
    margin-right: 15px;
 }
 
+.service{
+  background: #060c21;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
- 
-.services-section{
-  background: #000099;
-  background-size: cover;
-  padding: 60px 0;
-}
-.inner-width{
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
-  overflow: hidden;
-}
-.section-title{
+.header-service{
   text-align: center;
-  color: #ddd;
-  text-transform: uppercase;
-  font-size: 30px;
+  color: #fff;
 }
+
 .border{
   width: 160px;
   height: 2px;
-  background: #82ccdd;
+  background: #0080ff;
   margin: 40px auto;
 }
+
 .services-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
- 
+
 .service-box{
   max-width: 33.33%;
   padding: 10px;
@@ -263,26 +244,28 @@ header {
   color: #ddd;
   cursor: pointer;
 }
- 
+
 .service-icon{
   display: inline-block;
   width: 70px;
   height: 70px;
-  border: 3px solid #82ccdd;
-  color: #82ccdd;
+  border: 3px solid #0080ff;
+  color: #0080ff;
   transform: rotate(45deg);
   margin-bottom: 30px;
   margin-top: 16px;
   transition: 0.3s linear;
 }
+
 .service-icon i{
   line-height: 70px;
   transform: rotate(-45deg);
   font-size: 26px;
 }
+
 .service-box:hover .service-icon{
-  background: #82ccdd;
-  color: #ddd;
+  background: #0080ff;
+  color: #fff;
 }
 .service-title{
   font-size: 18px;
@@ -292,24 +275,9 @@ header {
 .service-desc{
   font-size: 14px;
 }
- 
-@media screen and (max-width:960px) {
-  .service-box{
-    max-width: 45%;
-  }
-}
- 
-@media screen and (max-width:768px) {
-  .service-box{
-    max-width: 50%;
-  }
-}
- 
-@media screen and (max-width:480px) {
-  .service-box{
-    max-width: 100%;
-  }
-}
+
+
+
 
 .team{
   display: flex;
