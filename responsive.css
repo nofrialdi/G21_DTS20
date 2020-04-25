@@ -1,19 +1,40 @@
 @media all and (max-width: 1000px) {
   .menu-icon{
     display:block;
+    padding: 0 25px;
   }
 
   .header-right{
     display:none;
   }
 
+  .header-left .logo {
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  header {
+    height: 75px;
+  }
   .text-about p img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
-    margin-right: 15px;
   }
-
+  
+  .text-about p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 0 100px;
+  }
+  
+  .service-box {
+    max-width: 670px;
+    width: 100%;
+    margin: 0 auto;
+  }
   .box{
     margin: 50px;
   }
@@ -35,13 +56,41 @@
     font-size: 8px;
   }
 
+    .contact {
+    padding: 0 30px;
+  }
+
+  .contact input, textarea {
+    width: 100%  
+  }
+  
+  .fullname {
+    display: none;
+  }
+  
+  .footer-bottom {
+    overflow: auto;
+    text-align: center;
+    padding: 10px 0 0;
+  }
+  
+  .footer-left {
+    float: none;
+    padding-top: 10px;
+    font-weight: normal;
+  }
+  
+  .footer-right {
+    float: none;
+    padding-right: 40px;
+  }
   
 }
 
 @media all and (max-width: 670px) {
    .menu-icon{
     display:block;
-    padding:0;
+    padding: 0 20px;
   }
 
   .header-right{
@@ -55,20 +104,31 @@
 
   .header-left .logo {
     font-size: 20px;
+    margin-left: 30px;
   }
 
-  header{
-    height: 50px;
+  header {
+    height: 70px;
   }
 
-  
   .text-about p img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
-    margin-right: 0;
+  }
+  
+  .text-about p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 0 35px;
   }
 
+  .service-box {
+    max-width: 670px;
+    width: 100%;
+    margin: 0 auto;
+  }
 
   .box:hover{
     height: 260px;
@@ -88,5 +148,34 @@
     font-size: 8px;
   }
 
+  .contact {
+    padding: 0 30px;
+  }
 
+  .contact input, textarea {
+    width: 100%  
+  }
+  
+  .fullname {
+    display: none;
+  }
+  
+  .footer-bottom {
+    max-width: 670px;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    padding: 10px 0 0;
+  }
+  
+  .footer-left {
+    float: none;
+    padding-top: 10px;
+    font-weight: normal;
+  }
+  
+  .footer-right {
+    float: none;
+    padding-right: 40px;
+  }
 }
