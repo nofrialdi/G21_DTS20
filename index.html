@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-    
-    
-
 </head>
 
 <body>
@@ -39,7 +36,7 @@
            About
        </a>
 
-       <a href="#service">
+       <a href="#services">
           <span></span>
            <span></span>
            <span></span>
@@ -55,7 +52,7 @@
            Team
        </a>
           
-        <a href="#" class="login">
+        <a href="#contact-us">
           <span></span>
           <span></span>
           <span></span>
@@ -80,30 +77,33 @@
     <!--------------------------------- About ------------------------------------------>
 
     <div class="about-layout" id="about">
-      <div class="header-about">
-        <h1>About Us</h1>
-      </div>
-      
-      <div class="text-about">
-        <p><img src="mockup.png">Team G21-DTS20 Adalah sebuah team yang terbentuk untuk mengerjakan tugas yang diberikan oleh instruktur untuk membuat tampilan suatu website sederhana dengan menggunakan html, Css dan JavaScript.<br><br>Team ini terdiri dari 5 orang yaitu : 
-          <br> - Jatmiko
-          <br> - Muthrib Abdurraaf
-          <br> - Nofrialdi 
-          <br> - Ringgo
-          <br> - Yoga</p>
+      <div class="container">
+        <div class="heading">
+            <h1>About Us</h1>
+            <div class="border"></div>
+        </div>
+
+        <div class="text-about">
+            <p><img src="mockup.png">Team G21-DTS20 Adalah sebuah team yang terbentuk untuk mengerjakan tugas yang diberikan oleh instruktur untuk membuat tampilan suatu website sederhana dengan menggunakan HTML, CSS dan JavaScript.<br><br>Team ini terdiri dari 5 orang yaitu : 
+              <br> - Jatmiko
+              <br> - Muthrib Abdurraaf
+              <br> - Nofrialdi 
+              <br> - Ringgo
+              <br> - Yoga</p>
+        </div>
       </div>
     </div>
 
         <!--------------------------------- Our Service ------------------------------------------>
 
-    <div class="service" id="service">
-      <div class="header-service">
-        <h1>Our Services</h1>
-      </div>
+     <div class="service" id="services">
+        <div class="container">
+            <div class="heading svc">
+                <h1>Our Services</h1>
+                <div class="border"></div>
+            </div>
 
-      <div class="border"></div>
-
-      <div class="services-container">
+      <div class="services-content">
         <div class="service-box">
           <div class="service-icon">
             <i class="fas fa-paint-brush"></i>
@@ -133,19 +133,17 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
             </div>
           </div>
-
-
+        </div>
+      </div>
     </div>
-
-    </div>
-
     <!--------------------------------- TEAM --------------------------------------->
 
     <div class="content" id="team">
       
       <div class="heading">
-        <h2>Our Team</h2>
-        <p>Berikut adalah Profile dari masing-masing anggota Team G21-DTS20</p>
+        <h1>Our Team</h1>
+        <div class="border"></div>
+        <p>Berikut adalah profil dari masing-masing anggota Team G21-DTS20</p>
       </div>
 
       
@@ -198,6 +196,25 @@
         </div>
     </div>
 
+  <!-- --------------------CONTACT US ------------------->
+   
+   <div class="contact" id="contact-us">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>Name</p>
+            <span>*</span>
+            <input type="text">
+            <input type="text" class="fullname">
+            <p>Email</p>
+            <span>*</span>
+            <input type="mail">
+            <p>Comment or Message</p>
+            <span>*</span>
+            <textarea></textarea>
+            <input type="submit" class="contact-send" value="SUBMIT">
+        </div>
+    </div>
+    
     <!-- -------------------------------------SPONSOR ----------------------------------->
 
 
@@ -227,24 +244,31 @@
 
 
     <div class="footer">
-      <div class="social">
-        <ul>
-          <li><a href="" target="blank" class="fab fa-facebook-f">
-          </a></li>
-          <li><a href="" target="blank" class="fab fa-twitter">
-          </a></li>
-          <li><a href="" target="blank" class="fab fa-instagram">
-          </a></li>
-          <li><a href="" target="blank" class="fab fa-google-plus">
-          </a></li>
+        <div class="social">
+         <ul>
+         <li><a href="#" target="blank" class="fab fa-facebook-f"></a></li>
+         <li><a href="#" target="blank" class="fab fa-twitter"></a></li>
+         <li><a href="#" target="blank" class="fab fa-instagram"></a></li>
+         <li><a href="#" target="blank" class="fab fa-google-plus"></a></li>
+         </ul>
+        </div>
 
-        </ul>
-      </div>
 
-      
-       <div class="footer-bottom">
-      <span>©2020 Design By <a href="">TEAM G21-DTS20</a></span>
-    </div>
+        <div class="footer-bottom">
+          <div class="footer-left">
+              Design by <a href="#home">TEAM G21-DTS20</a>
+              <br>
+              &copy; 2020
+          </div>
+          <div class="footer-right">
+             <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Our Service</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+             </ul>
+          </div>
+        </div>
     </div>
 
 </body>
