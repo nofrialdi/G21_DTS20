@@ -5,8 +5,7 @@ html{scroll-behavior: smooth;}
 }
 
 body {
-  margin: 0;
-  
+  margin: auto;
   font-family: 'Quicksand', sans-serif;
 
 }
@@ -20,13 +19,15 @@ a {
 .container {
   max-width: 1170px;
   width: 100%;
-  padding: 0 15px;
+/*   padding: 0 15px; */
   margin: 0 auto;
 }
 
 .top-wrapper img {
-  background-size: cover;
-  color: white;
+/*   background-size: cover; */
+  object-fit: cover;
+  object-position: center;
+/*   color: white; */
   width: 100%;
   height: 665px;
   text-align: center;
@@ -81,7 +82,7 @@ header {
 
 .header-right {
   float: right;
-  margin-right: 25px;
+  margin-right: 20px;
   margin-top: 15px;
 }
 
@@ -89,13 +90,14 @@ header {
 .header-right a{
   position: relative;
   display: inline-block;
-  padding: 15px 30px;
+  padding: 10px 20px;
   color: #fff;
   
-  letter-spacing: 4px;
+/*   letter-spacing: 4px; */
   text-decoration: none;
   transition: 0.2s;
   overflow: hidden;
+  border-radius: 5px;
 
 }
 
@@ -176,15 +178,22 @@ header {
   color:white;
   float: right;
   font-size: 25px;
-  padding: 15px 0;
+/*   padding: 10px 0; */
   display: none;
-  margin-top: 15px;  
+  margin-top: 25px;  
   
 }
 
-.header-about h1{
-  text-align: center;
-  font-size: 35px;
+.about-layout {
+  padding: 60px 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 30px;
 }
 
 .text-about{
@@ -193,16 +202,16 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 40px;
-  margin-right: 40px;  
+/*   margin-left: 40px;
+  margin-right: 40px;   */
 
 }
 
 .text-about p{
   text-align:justify;
-  padding:8px;
+  padding:10px;
   font-size: 18px;
-  margin-left: 15px;
+/*   margin-left: px; */
   
 }
 
@@ -210,17 +219,16 @@ header {
    width:600px; 
    height:300px;
    float:left;
-   margin-right: 15px;
+   margin-right: 30px;
 }
 
 .service{
   background: #060c21;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 60px 0;
+  
 }
 
-.header-service{
-  text-align: center;
+.svc {
   color: #fff;
 }
 
@@ -228,10 +236,10 @@ header {
   width: 160px;
   height: 2px;
   background: #0080ff;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 
-.services-container{
+.services-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -276,8 +284,13 @@ header {
   font-size: 14px;
 }
 
+.content {
+    padding: 60px 0;
+}
 
-
+.heading p {
+  font-size: 18px;
+}
 
 .team{
   display: flex;
@@ -285,20 +298,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   min-height: 350px;  
-
 }
-
-.heading h2{
-  text-align: center;
-  font-size: 35px;
-}
-
-.heading p{
-  text-align: center;
-  font-size: 20px;
-}
-
-
 
 .box{
   position:relative;
@@ -414,7 +414,54 @@ header {
   letter-spacing: 2px;
 }
 
+.contact {
+    padding: 60px 0;
+}
 
+.contact h1 {
+    color: #052f61;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}
+
+.contact span {
+    display: block;
+/*    margin-bottom: 5px;*/
+    color: red;
+}
+
+input, textarea {
+    border-radius: 3px;
+    width: 300px;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #dedede;
+    margin-right: 10px;
+}
+
+textarea {
+    width: 605px;
+    margin-bottom: 20px;
+}
+
+.contact-send {
+    display: block;
+    width: auto;
+    padding: 10px 25px;
+    color: white;
+    background-color: #052f61;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contact-send:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
 
 
 .slider{
@@ -447,21 +494,23 @@ header {
 
 .footer{
   width: 100%;
+/*
   height: auto;
   margin: auto;
+*/
   background: #272727;
-  padding-top:10px;
+  padding-top: 10px;
 }
 
 .social{
-  width: 100%
-  height:auto;
+  width: 100%;
+  height: auto;
   margin: auto;
 }
 
 .social ul{
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -472,19 +521,15 @@ header {
   height: 30px;
   margin: 0px 10px;
   border-radius: 100%;
-
-
 }
 
 .social ul li a {
-  color: #fff;
-  font-size: 15px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
 }
 
-.social ul li a {
-  line-height: 30px;
-}
-
+/*
 .footer-menu{
   width: 100%;
   margin: auto;
@@ -516,24 +561,38 @@ header {
   text-decoration: none;
 
 }
+*/
 
 .footer-bottom {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  margin-top: 20px;
-  font-size: 16px;
-  text-align:center;
-  color: #fff;
+  font-size: 14px;
+/*  text-align:center;*/
+  color: white;
   background: #202570;
-
+  padding: 10px 50px 0;
+  overflow: hidden;
 }
 
-.footer-bottom a{
-  color: #fff;
-  text-decoration: none;
+.footer-left {
+    float: left;
+    padding-top: 50px;
 }
 
+.footer-left a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
 
+.footer-right {
+    float: right;
+}
 
+.footer-right li {
+    list-style: none;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
 
+.footer-right li a {
+    color: white;
+}
