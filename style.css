@@ -33,9 +33,8 @@ a {
   text-align: center;
 } */
 
-.top-wrapper {
+.top-wrapper img{
   padding: 180px 0 100px 0;
-  background-image: url("header.png");
   background-size: cover;
   color: white;
   text-align: center;
