@@ -5,7 +5,7 @@
   }
 
   .header-right{
-    display:none;
+    display:block;
   }
 
   .header-left .logo {
@@ -92,24 +92,28 @@
 }
 
 @media all and (max-width: 670px) {
-   .menu-icon{
-    display:block;
-    padding: 0 20px;
+  .header-left .logo {
+    font-size: 20px;
+    margin-left: 30px;
   }
 
   .header-right{
     display:none;
   }
 
+  .container .menu-icon{
+    display: block;
+    padding: 0 25px;
+  }
+
+  
+
   .top-wrapper img{
     height: 50%;
   }
 
 
-  .header-left .logo {
-    font-size: 20px;
-    margin-left: 30px;
-  }
+  
 
   header {
     height: 70px;
