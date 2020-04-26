@@ -1,6 +1,6 @@
 @media all and (max-width: 1000px) {
   .menu-icon{
-    display:block;
+    display:none;
     padding: 0 25px;
   }
 
