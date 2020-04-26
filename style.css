@@ -47,7 +47,7 @@ a {
   
 }
 
-.top-wrapper {
+.top-wrapper img{
   height:700px;
   background-image :url("header.png");
   background-size:cover;
