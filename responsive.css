@@ -17,6 +17,24 @@
   header {
     height: 75px;
   }
+
+  .text-header h1{
+    font-size: 35px;
+    top:160px;
+
+  }
+
+  .text-header p{
+    font-size: 14px;
+  }
+
+  .btn-wrapper {
+    font-size: 10px;
+    margin: 0;
+  }
+
+
+
   .text-about p img {
     width: 100%;
     height: auto;
@@ -95,6 +113,25 @@
 
   header {
     height: 70px;
+  }
+
+  .text-header h1{
+    font-size: 20px;
+    padding-right: 20px;
+    top:120px;
+
+  }
+
+  .text-header p{
+    font-size: 8px;
+    padding-right: 20px;
+  }
+
+  .btn-wrapper {
+    font-size: 8px;
+    top: 210px;
+    padding-right: 20px;
+    
   }
 
   .text-about p img {
