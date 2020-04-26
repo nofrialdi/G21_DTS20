@@ -49,7 +49,7 @@ a {
 
 .top-wrapper {
   height:700px;
-/*   background-image :url("header.png"); */
+ background-image :url("header.png"); 
   background-size:cover;
   padding: 180px 0 100px 0;
 }
