@@ -20,13 +20,13 @@ a {
   margin: 0 auto;
 }
 
-.top-wrapper img {
+/* .top-wrapper img {
   object-fit: cover;
   object-position: center;
   width: 100%;
   height: 665px;
   text-align: center;
-}
+} */
 
 .text-wrapper  h1{
   color : white;
@@ -47,12 +47,12 @@ a {
   
 }
 
-/* .top-wrapper img{
+.top-wrapper img{
   height:700px;
   background-image :url("header.png");
   background-size:cover;
   padding: 180px 0 100px 0;
-} */
+}
 
 header {
   height: 75px;
