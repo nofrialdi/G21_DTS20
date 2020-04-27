@@ -107,14 +107,119 @@
     padding: 0 25px;
   }
 
-  
-
   .top-wrapper img{
     height: 300px;
   }
 
+  header {
+    height: 70px;
+  }
 
+   .text-header h1{
+    font-size: 28px;
+    padding-right: 20px;
+    top: 80px;
+    line-height: 25px;
+  }
+
+  .text-header p{
+    font-size: 10px;
+    padding-left: 120px;
+    padding-right: 20px;
+    opacity: 1;
+    line-height: 12px;
+    margin-top: 10px;
+  }
+
+  .btn-wrapper {
+    font-size: 12px;
+    top: 220px;
+    padding-right: 20px; 
+  }
   
+  .text-about p img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .text-about p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 0 35px;
+    font-size: 16px;
+  }
+
+  .service-box {
+    max-width: 670px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .heading p {
+    font-size: 14px;
+    padding: 0 25px;
+  }
+
+  .box:hover{
+    height: 260px;
+  }
+
+  .box .content{
+    height: 45px;
+  }
+
+
+  .box .content h2{
+    font-size: 12px;
+  }
+
+
+  .box .content span{
+    font-size: 8px;
+  }
+
+   .section{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .section ul {
+    margin: 0px;
+    padding: 0px 10px;
+  }
+
+  .section ul h1{
+    font-size: 25px;
+  }
+
+  .section ul li{
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .header-left .logo {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  .header-right{
+    display:none;
+  }
+
+  .container .menu-icon{
+    display: block;
+    padding: 0 25px;
+  }
+
+  .top-wrapper img{
+    height: 300px;
+  }
 
   header {
     height: 70px;
@@ -137,7 +242,7 @@
   }
 
   .btn-wrapper {
-    font-size: 10px;
+    font-size: 8px;
     top: 220px;
     padding-right: 20px; 
   }
